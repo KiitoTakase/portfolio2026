@@ -1,0 +1,32 @@
+:root {
+  color-scheme: light;
+  background: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #ffffff;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio-page {
+  width: 100vw;
+  background: #ffffff;
+}
+
+.portfolio-slice {
+  display: block;
+  width: 100vw;
+  height: auto;
+  max-width: none;
+}
